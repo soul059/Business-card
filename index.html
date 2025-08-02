@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keval Chauhan - Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="card-container">
+        <div class="business-card">
+            <div class="card-front">
+                <div class="header">
+                    <div class="avatar">
+                        <img src="assets/kevalphoto.jpg" alt="Keval Chauhan">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="name-section">
+                        <h1 class="name">Keval Chauhan</h1>
+                        <p class="title">Web Developer</p>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9429806587</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>keval.chauhan@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <span>keval.live</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/keval-s-chauhan</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <span>github.com/soul059</span>
+                    </div>
+                </div>
+                
+                <div class="skills">
+                    <!-- Empty placeholder for grid layout -->
+                </div>
+                
+                <div class="actions">
+                    <button class="btn btn-primary" onclick="downloadVCard()">
+                        <i class="fas fa-download"></i>
+                        Save
+                    </button>
+                    <button class="btn btn-secondary" onclick="shareCard()">
+                        <i class="fas fa-share"></i>
+                        Share
+                    </button>
+                </div>
+                
+                <div class="qr-section">
+                    <div class="qr-code">
+                        <i class="fas fa-qrcode"></i>
+                        <p>Scan QR Code</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal for sharing -->
+    <div id="shareModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Share Business Card</h3>
+            <div class="share-options">
+                <button class="share-btn" onclick="shareToWhatsApp()">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp
+                </button>
+                <button class="share-btn" onclick="shareToEmail()">
+                    <i class="fas fa-envelope"></i>
+                    Email
+                </button>
+                <button class="share-btn" onclick="copyLink()">
+                    <i class="fas fa-link"></i>
+                    Copy Link
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="floating-elements">
+        <div class="floating-circle"></div>
+        <div class="floating-square"></div>
+        <div class="floating-triangle"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

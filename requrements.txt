@@ -1,0 +1,10 @@
+i need to create an virtual business card for web devloper work
+
+name : keval chauhan
+mobile number : +91 9429806587
+
+for more detail see cv keval.pdf
+
+It need to be simple yet look good
+
+techinacal --> use only html css javascrept because it will be static site need to be deployed in github pages 

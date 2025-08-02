@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="85mm" height="85mm" viewBox="0 0 85 85" xmlns="http://www.w3.org/2000/svg">
+  <!-- IDE-style Background -->
+  <rect width="85" height="85" fill="#1e1e1e"/>
+  
+  <!-- Code Editor Window -->
+  <rect x="2" y="2" width="81" height="81" fill="#2d2d30" stroke="#007acc" stroke-width="0.3" rx="2"/>
+  
+  <!-- Title Bar -->
+  <rect x="2" y="2" width="81" height="6" fill="#37373d" rx="2"/>
+  
+  <!-- Window Controls -->
+  <circle cx="6" cy="5" r="0.8" fill="#ff5f56"/>
+  <circle cx="9" cy="5" r="0.8" fill="#ffbd2e"/>
+  <circle cx="12" cy="5" r="0.8" fill="#27ca3f"/>
+  
+  <!-- Tab -->
+  <rect x="16" y="2.5" width="25" height="5" fill="#1e1e1e" rx="1"/>
+  <text x="17" y="6" fill="#ffffff" font-family="'Courier New', monospace" font-size="2.5">developer.json</text>
+  
+  <!-- Line Numbers -->
+  <rect x="2" y="8" width="8" height="73" fill="#252526"/>
+  <g fill="#858585" font-family="'Courier New', monospace" font-size="2.5">
+    <text x="3" y="12">1</text>
+    <text x="3" y="16">2</text>
+    <text x="3" y="20">3</text>
+    <text x="3" y="24">4</text>
+    <text x="3" y="28">5</text>
+    <text x="3" y="32">6</text>
+    <text x="3" y="36">7</text>
+    <text x="3" y="40">8</text>
+    <text x="3" y="44">9</text>
+    <text x="3" y="48">10</text>
+    <text x="3" y="52">11</text>
+    <text x="3" y="56">12</text>
+    <text x="3" y="60">13</text>
+    <text x="3" y="64">14</text>
+    <text x="3" y="68">15</text>
+  </g>
+  
+    <!-- Code Content -->
+    <g font-family="'Courier New', monospace" font-size="2.8">
+      <!-- JSON Structure -->
+      <text x="12" y="12" fill="#d4d4d4">{</text>
+      
+      <!-- Name Field -->
+      <text x="14" y="16" fill="#9cdcfe">"name"</text>
+      <text x="24" y="16" fill="#d4d4d4">:</text>
+      <text x="25.5" y="16" fill="#ce9178">"Keval Chauhan"</text>
+      <text x="50" y="16" fill="#d4d4d4">,</text>
+      
+      <!-- Role Field -->
+      <text x="14" y="20" fill="#9cdcfe">"role"</text>
+      <text x="24" y="20" fill="#d4d4d4">:</text>
+      <text x="25.5" y="20" fill="#ce9178">"Web Developer"</text>
+      <text x="50" y="20" fill="#d4d4d4">,</text>
+      
+      <!-- Contact Object -->
+      <text x="14" y="24" fill="#9cdcfe">"contact"</text>
+      <text x="29" y="24" fill="#d4d4d4">:</text>
+      <text x="30.5" y="24" fill="#d4d4d4">{</text>
+      
+      <!-- Phone -->
+      <text x="16" y="28" fill="#9cdcfe">"phone"</text>
+      <text x="27.5" y="28" fill="#d4d4d4">:</text>
+      <text x="29" y="28" fill="#ce9178">"+91 9429806587"</text>
+      <text x="56.5" y="28" fill="#d4d4d4">,</text>
+      
+      <!-- Email -->
+      <text x="16" y="32" fill="#9cdcfe">"email"</text>
+      <text x="27.5" y="32" fill="#d4d4d4">:</text>
+      <text x="29.5" y="32" fill="#ce9178">"keval.chauhan@email.com"</text>
+      <text x="71" y="32" fill="#d4d4d4">,</text>
+      
+      <!-- Website -->
+      <text x="16" y="36" fill="#9cdcfe">"website"</text>
+      <text x="31" y="36" fill="#d4d4d4">:</text>
+      <text x="32.5" y="36" fill="#ce9178">"keval.live"</text>
+      
+      <text x="15" y="40" fill="#d4d4d4">},</text>
+      
+      <!-- Social Object -->
+      <text x="14" y="50" fill="#9cdcfe">"social"</text>
+      <text x="27" y="50" fill="#d4d4d4">:</text>
+      <text x="28.5" y="50" fill="#d4d4d4">{</text>
+      
+      <!-- LinkedIn -->
+      <text x="16" y="54" fill="#9cdcfe">"linkedin"</text>
+      <text x="32.5" y="54" fill="#d4d4d4">:</text>
+      <text x="34" y="54" fill="#ce9178">"keval-s-chauhan"</text>
+      <text x="62" y="54" fill="#d4d4d4">,</text>
+      
+      <!-- GitHub -->
+      <text x="16" y="58" fill="#9cdcfe">"github"</text>
+      <text x="29" y="58" fill="#d4d4d4">:</text>
+      <text x="30.5" y="58" fill="#ce9178">"soul059"</text>
+      
+      <text x="15" y="62" fill="#d4d4d4">}</text>
+      
+      <text x="12" y="66" fill="#d4d4d4">}</text>
+    </g>
+    
+    <!-- Syntax Highlighting Cursor -->
+    <rect x="10" y="66" width="0.3" height="3" fill="#ffffff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  
+  <!-- VS Code Style Status Bar -->
+  <rect x="2" y="76" width="81" height="5" fill="#007acc"/>
+  <text x="4" y="79.5" fill="#ffffff" font-family="'Courier New', monospace" font-size="2">JSON • UTF-8 • Ln 17, Col 1 • developer.json</text>
+</svg>

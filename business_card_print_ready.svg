@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180mm" height="95mm" viewBox="0 0 180 95" xmlns="http://www.w3.org/2000/svg">
+  <!-- Print Guidelines -->
+  <defs>
+    <style>
+      .cut-line { stroke: #ff0000; stroke-width: 0.2; stroke-dasharray: 2,2; fill: none; }
+      .bleed-area { stroke: #00ff00; stroke-width: 0.1; fill: none; opacity: 0.5; }
+      .safe-area { stroke: #0000ff; stroke-width: 0.1; fill: none; opacity: 0.3; }
+      .print-label { font-family: Arial, sans-serif; font-size: 3; fill: #666666; }
+    </style>
+  </defs>
+  
+  <!-- Front Card (IDE Style) -->
+  <g id="front-card" transform="translate(5, 5)">
+    <!-- IDE-style Background -->
+    <rect width="85" height="85" fill="#1e1e1e"/>
+    
+    <!-- Code Editor Window -->
+    <rect x="2" y="2" width="81" height="81" fill="#2d2d30" stroke="#007acc" stroke-width="0.3" rx="2"/>
+    
+    <!-- Title Bar -->
+    <rect x="2" y="2" width="81" height="6" fill="#37373d" rx="2"/>
+    
+    <!-- Window Controls -->
+    <circle cx="6" cy="5" r="0.8" fill="#ff5f56"/>
+    <circle cx="9" cy="5" r="0.8" fill="#ffbd2e"/>
+    <circle cx="12" cy="5" r="0.8" fill="#27ca3f"/>
+    
+    <!-- Tab -->
+    <rect x="16" y="2.5" width="25" height="5" fill="#1e1e1e" rx="1"/>
+    <text x="17" y="6" fill="#ffffff" font-family="'Courier New', monospace" font-size="2.5">developer.json</text>
+    
+    <!-- Line Numbers -->
+    <rect x="2" y="8" width="8" height="73" fill="#252526"/>
+    <g fill="#858585" font-family="'Courier New', monospace" font-size="2.5">
+      <text x="3" y="12">1</text>
+      <text x="3" y="16">2</text>
+      <text x="3" y="20">3</text>
+      <text x="3" y="24">4</text>
+      <text x="3" y="28">5</text>
+      <text x="3" y="32">6</text>
+      <text x="3" y="36">7</text>
+      <text x="3" y="40">8</text>
+      <text x="3" y="44">9</text>
+      <text x="3" y="48">10</text>
+      <text x="3" y="52">11</text>
+      <text x="3" y="56">12</text>
+      <text x="3" y="60">13</text>
+      <text x="3" y="64">14</text>
+      <text x="3" y="68">15</text>
+      <text x="3" y="72">16</text>
+      <text x="3" y="76">17</text>
+    </g>
+    
+    <!-- Code Content -->
+    <g font-family="'Courier New', monospace" font-size="2.8">
+      <!-- JSON Structure -->
+      <text x="12" y="12" fill="#d4d4d4">{</text>
+      
+      <!-- Name Field -->
+      <text x="14" y="16" fill="#9cdcfe">"name"</text>
+      <text x="23" y="16" fill="#d4d4d4">:</text>
+      <text x="25.5" y="16" fill="#ce9178">"Keval Chauhan"</text>
+      <text x="44" y="16" fill="#d4d4d4">,</text>
+      
+      <!-- Role Field -->
+      <text x="14" y="20" fill="#9cdcfe">"role"</text>
+      <text x="23" y="20" fill="#d4d4d4">:</text>
+      <text x="25.5" y="20" fill="#ce9178">"Web Developer"</text>
+      <text x="43" y="20" fill="#d4d4d4">,</text>
+      
+      <!-- Contact Object -->
+      <text x="14" y="24" fill="#9cdcfe">"contact"</text>
+      <text x="28" y="24" fill="#d4d4d4">:</text>
+      <text x="30.5" y="24" fill="#d4d4d4">{</text>
+      
+      <!-- Phone -->
+      <text x="16" y="28" fill="#9cdcfe">"phone"</text>
+      <text x="27" y="28" fill="#d4d4d4">:</text>
+      <text x="14" y="32" fill="#ce9178">"+91 9429806587"</text>
+      <text x="32" y="32" fill="#d4d4d4">,</text>
+      
+      <!-- Email -->
+      <text x="16" y="36" fill="#9cdcfe">"email"</text>
+      <text x="27" y="36" fill="#d4d4d4">:</text>
+      <text x="14" y="40" fill="#ce9178">"keval.chauhan@email.com"</text>
+      <text x="46" y="40" fill="#d4d4d4">,</text>
+      
+      <!-- Website -->
+      <text x="16" y="44" fill="#9cdcfe">"website"</text>
+      <text x="30" y="44" fill="#d4d4d4">:</text>
+      <text x="32.5" y="44" fill="#ce9178">"keval.live"</text>
+      
+      <text x="14" y="48" fill="#d4d4d4">},</text>
+      
+      <!-- Social Object -->
+      <text x="14" y="52" fill="#9cdcfe">"social"</text>
+      <text x="26" y="52" fill="#d4d4d4">:</text>
+      <text x="28.5" y="52" fill="#d4d4d4">{</text>
+      
+      <!-- LinkedIn -->
+      <text x="16" y="56" fill="#9cdcfe">"linkedin"</text>
+      <text x="31" y="56" fill="#d4d4d4">:</text>
+      <text x="14" y="60" fill="#ce9178">"keval-s-chauhan"</text>
+      <text x="40" y="60" fill="#d4d4d4">,</text>
+      
+      <!-- GitHub -->
+      <text x="16" y="64" fill="#9cdcfe">"github"</text>
+      <text x="28" y="64" fill="#d4d4d4">:</text>
+      <text x="30.5" y="64" fill="#ce9178">"soul059"</text>
+      
+      <text x="14" y="68" fill="#d4d4d4">}</text>
+      
+      <text x="12" y="72" fill="#d4d4d4">}</text>
+    </g>
+    
+    <!-- Syntax Highlighting Cursor -->
+    <rect x="38" y="69" width="0.3" height="3" fill="#ffffff" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- VS Code Style Status Bar -->
+    <rect x="2" y="76" width="81" height="5" fill="#007acc"/>
+    <text x="4" y="79.5" fill="#ffffff" font-family="'Courier New', monospace" font-size="2">JSON • UTF-8 • Ln 17, Col 1 • developer.json</text>
+  </g>
+  
+  <!-- Back Card (Terminal Style) -->
+  <g id="back-card" transform="translate(95, 5)">
+    <!-- IDE-style Background -->
+    <rect width="85" height="85" fill="#1e1e1e"/>
+    
+    <!-- Terminal Window -->
+    <rect x="2" y="2" width="81" height="81" fill="#2d2d30" stroke="#007acc" stroke-width="0.3" rx="2"/>
+    
+    <!-- Title Bar -->
+    <rect x="2" y="2" width="81" height="6" fill="#37373d" rx="2"/>
+    
+    <!-- Window Controls -->
+    <circle cx="6" cy="5" r="0.8" fill="#ff5f56"/>
+    <circle cx="9" cy="5" r="0.8" fill="#ffbd2e"/>
+    <circle cx="12" cy="5" r="0.8" fill="#27ca3f"/>
+    
+    <!-- Terminal Tab -->
+    <rect x="16" y="2.5" width="20" height="5" fill="#1e1e1e" rx="1"/>
+    <text x="17" y="6" fill="#ffffff" font-family="'Courier New', monospace" font-size="2.5">terminal</text>
+    
+    <!-- Terminal Content -->
+    <g font-family="'Courier New', monospace" font-size="2.5" fill="#d4d4d4">
+      <!-- Command History -->
+      <text x="4" y="14" fill="#58d68d">keval@dev:~$</text>
+      <text x="18" y="14" fill="#ffffff">npm run build</text>
+      
+      <text x="4" y="17.5" fill="#85c1e9">✓ Build successful!</text>
+      
+      <text x="4" y="21" fill="#58d68d">keval@dev:~$</text>
+      <text x="18" y="21" fill="#ffffff">git commit -m</text>
+      
+      <text x="4" y="24.5" fill="#ce9178">"Added QR code"</text>
+      
+      <text x="4" y="28" fill="#85c1e9">[main 7a8b9c2] Added QR</text>
+      
+      <text x="4" y="31.5" fill="#58d68d">keval@dev:~$</text>
+      <text x="18" y="31.5" fill="#ffffff">echo "Scan QR:"</text>
+    </g>
+    
+    <!-- QR Code Container (centered) -->
+    <rect x="22" y="36" width="41" height="41" fill="#ffffff" rx="2"/>
+    <rect x="23.5" y="37.5" width="38" height="38" fill="#000000" rx="1"/>
+    
+    <!-- QR Code Pattern (Enhanced) -->
+    <!-- Corner markers -->
+    <rect x="26" y="40" width="6" height="6" fill="#ffffff"/>
+    <rect x="26.5" y="40.5" width="5" height="5" fill="#000000"/>
+    <rect x="28" y="42" width="2" height="2" fill="#ffffff"/>
+    
+    <rect x="52" y="40" width="6" height="6" fill="#ffffff"/>
+    <rect x="52.5" y="40.5" width="5" height="5" fill="#000000"/>
+    <rect x="54" y="42" width="2" height="2" fill="#ffffff"/>
+    
+    <rect x="26" y="66" width="6" height="6" fill="#ffffff"/>
+    <rect x="26.5" y="66.5" width="5" height="5" fill="#000000"/>
+    <rect x="28" y="68" width="2" height="2" fill="#ffffff"/>
+    
+    <!-- Data pattern (more detailed) -->
+    <g fill="#ffffff">
+      <!-- Top rows -->
+      <rect x="34" y="40" width="1" height="1"/>
+      <rect x="36" y="40" width="1" height="1"/>
+      <rect x="38" y="40" width="1" height="1"/>
+      <rect x="40" y="40" width="1" height="1"/>
+      <rect x="42" y="40" width="1" height="1"/>
+      <rect x="44" y="40" width="1" height="1"/>
+      <rect x="46" y="40" width="1" height="1"/>
+      <rect x="48" y="40" width="1" height="1"/>
+      <rect x="50" y="40" width="1" height="1"/>
+      
+      <!-- Pattern rows -->
+      <rect x="34" y="42" width="1" height="1"/>
+      <rect x="38" y="42" width="1" height="1"/>
+      <rect x="42" y="42" width="1" height="1"/>
+      <rect x="46" y="42" width="1" height="1"/>
+      <rect x="50" y="42" width="1" height="1"/>
+      
+      <rect x="36" y="44" width="1" height="1"/>
+      <rect x="40" y="44" width="1" height="1"/>
+      <rect x="44" y="44" width="1" height="1"/>
+      <rect x="48" y="44" width="1" height="1"/>
+      
+      <!-- Center area with special pattern -->
+      <rect x="39" y="53" width="6" height="6" fill="#ffffff"/>
+      <rect x="40" y="54" width="4" height="4" fill="#000000"/>
+      <rect x="41" y="55" width="2" height="2" fill="#ffffff"/>
+      
+      <!-- More data patterns -->
+      <rect x="34" y="60" width="1" height="1"/>
+      <rect x="36" y="60" width="1" height="1"/>
+      <rect x="46" y="60" width="1" height="1"/>
+      <rect x="48" y="60" width="1" height="1"/>
+      <rect x="50" y="60" width="1" height="1"/>
+      
+      <rect x="34" y="62" width="1" height="1"/>
+      <rect x="38" y="62" width="1" height="1"/>
+      <rect x="42" y="62" width="1" height="1"/>
+      <rect x="46" y="62" width="1" height="1"/>
+      
+      <rect x="36" y="64" width="1" height="1"/>
+      <rect x="40" y="64" width="1" height="1"/>
+      <rect x="44" y="64" width="1" height="1"/>
+      <rect x="48" y="64" width="1" height="1"/>
+      
+      <!-- Bottom patterns -->
+      <rect x="34" y="68" width="1" height="1"/>
+      <rect x="36" y="68" width="1" height="1"/>
+      <rect x="38" y="68" width="1" height="1"/>
+      <rect x="40" y="68" width="1" height="1"/>
+      <rect x="42" y="68" width="1" height="1"/>
+      <rect x="44" y="68" width="1" height="1"/>
+      <rect x="46" y="68" width="1" height="1"/>
+      <rect x="48" y="68" width="1" height="1"/>
+      <rect x="50" y="68" width="1" height="1"/>
+      
+      <rect x="34" y="70" width="1" height="1"/>
+      <rect x="38" y="70" width="1" height="1"/>
+      <rect x="42" y="70" width="1" height="1"/>
+      <rect x="46" y="70" width="1" height="1"/>
+      <rect x="50" y="70" width="1" height="1"/>
+    </g>
+    
+    <!-- Terminal Output for QR Code -->
+    <g font-family="'Courier New', monospace" font-size="2.2">
+      <text x="4" y="81" fill="#f39c12">Scan QR for portfolio:</text>
+      <text x="4" y="84" fill="#85c1e9">→ https://keval.live</text>
+    </g>
+    
+    <!-- Terminal Cursor -->
+    <text x="4" y="87" fill="#58d68d" font-family="'Courier New', monospace" font-size="2.2">keval@dev:~$</text>
+    <rect x="22" y="85.5" width="0.3" height="2" fill="#ffffff">
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Print Guidelines (can be hidden for final print) -->
+  <g id="print-guidelines" opacity="0.5">
+    <!-- Cut lines around cards -->
+    <rect x="5" y="5" width="85" height="85" class="cut-line"/>
+    <rect x="95" y="5" width="85" height="85" class="cut-line"/>
+    
+    <!-- Labels -->
+    <text x="47.5" y="93" text-anchor="middle" class="print-label">FRONT - IDE Style JSON (Print this side first)</text>
+    <text x="137.5" y="93" text-anchor="middle" class="print-label">BACK - Terminal Style QR (Flip paper and print on reverse)</text>
+    
+    <!-- Center alignment mark -->
+    <line x1="90" y1="0" x2="90" y2="95" stroke="#cccccc" stroke-width="0.1" stroke-dasharray="1,1"/>
+  </g>
+</svg>

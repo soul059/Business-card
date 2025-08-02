@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore GIMP temporary files
+*.xcf
+*.gbr
+*.gih
+*.vbr
+
+# Ignore SVG backup files
+*.svg~
+
+# Ignore QR code images
+*.png
+
+# Ignore node_modules for JavaScript
+node_modules/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore generated PDFs
+*.pdf
+
