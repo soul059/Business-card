@@ -80,24 +80,24 @@
       <text x="15" y="40" fill="#d4d4d4">},</text>
       
       <!-- Social Object -->
-      <text x="14" y="50" fill="#9cdcfe">"social"</text>
-      <text x="27" y="50" fill="#d4d4d4">:</text>
-      <text x="28.5" y="50" fill="#d4d4d4">{</text>
+      <text x="14" y="48" fill="#9cdcfe">"social"</text>
+      <text x="27" y="48" fill="#d4d4d4">:</text>
+      <text x="28.5" y="48" fill="#d4d4d4">{</text>
       
       <!-- LinkedIn -->
-      <text x="16" y="54" fill="#9cdcfe">"linkedin"</text>
-      <text x="32.5" y="54" fill="#d4d4d4">:</text>
-      <text x="34" y="54" fill="#ce9178">"keval-s-chauhan"</text>
-      <text x="62" y="54" fill="#d4d4d4">,</text>
+      <text x="16" y="52" fill="#9cdcfe">"linkedin"</text>
+      <text x="32.5" y="52" fill="#d4d4d4">:</text>
+      <text x="34" y="52" fill="#ce9178">"keval-s-chauhan"</text>
+      <text x="62" y="52" fill="#d4d4d4">,</text>
       
       <!-- GitHub -->
-      <text x="16" y="58" fill="#9cdcfe">"github"</text>
-      <text x="29" y="58" fill="#d4d4d4">:</text>
-      <text x="30.5" y="58" fill="#ce9178">"soul059"</text>
+      <text x="16" y="56" fill="#9cdcfe">"github"</text>
+      <text x="29" y="56" fill="#d4d4d4">:</text>
+      <text x="30.5" y="56" fill="#ce9178">"soul059"</text>
       
-      <text x="15" y="62" fill="#d4d4d4">}</text>
+      <text x="15" y="60" fill="#d4d4d4">}</text>
       
-      <text x="12" y="66" fill="#d4d4d4">}</text>
+      <text x="12" y="64" fill="#d4d4d4">}</text>
     </g>
     
     <!-- Syntax Highlighting Cursor -->

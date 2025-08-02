@@ -10,7 +10,7 @@ def create_qr_code():
         from qrcode.image.svg import SvgPathImage
         
         # Your website URL
-        website_url = "https://keval.live"  # Update this to your actual domain
+        website_url = "https://soul059.github.io/Business-card/"  # Update this to your actual domain
         
         # Create QR code instance
         qr = qrcode.QRCode(
