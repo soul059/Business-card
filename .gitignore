@@ -36,3 +36,7 @@ Thumbs.db
 # Ignore generated PDFs
 *.pdf
 
+# Ignore generated HTML files except index.html
+*.html
+!index.html
+
